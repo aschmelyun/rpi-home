@@ -15,9 +15,9 @@ class CreateDatapointsTable extends Migration
     {
         Schema::create('datapoints', function (Blueprint $table) {
             $table->id();
-            $table->string('name', 255);
-            $table->string('value', 255);
-            $table->string('cast', 255)->default('string');
+            $table->string('name', 156);
+            $table->string('value', 156);
+            $table->string('cast', 156)->default('string');
             $table->timestamps();
         });
     }
